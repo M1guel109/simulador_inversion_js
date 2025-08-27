@@ -1,13 +1,9 @@
-@font-face {
-    font-family: 'Montserrat'; 
-    src: url('Montserrat-VariableFont_wght.ttf') format('truetype'); /* Ruta relativa o absoluta de tu archivo .ttf */
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 #simulator{
@@ -22,7 +18,7 @@
 h1{
     font-size: 34px;
     font-weight: 700;
-    color: #1c9882;
+    color: #0A1A1A;
     text-align: center;
     padding-bottom: 50px;
     border-bottom: 2px solid #7a93ab;
@@ -40,7 +36,7 @@ h1{
 }
 
 h2{
-    color: #202d37;
+    color: #0A1A1A;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -92,9 +88,9 @@ form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #1c9882;
+    background: #0A1A1A;
     color: #fff;
-    border: 1px solid #1c9882;
+    border: 1px solid #00E6FF;
     transition: .4s;
     cursor: pointer;
 }
