@@ -189,3 +189,14 @@ input::placeholder {
 .notificacion h5 span{
     font-weight: 700;
 }
+
+footer p{
+    padding: 20px;
+    text-align: center;
+    background:#0A1A1A;
+    color:#fff;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
